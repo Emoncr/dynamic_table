@@ -1,8 +1,3 @@
-# React + Vite
+# Welcome to Dynamic Table Projects
+![Dynamc Table Screenshort](https://firebasestorage.googleapis.com/v0/b/property-sell-401819.appspot.com/o/assignment%20ss.png?alt=media&token=604c9d9a-2148-4ef2-ac9e-77f75ef68f1c)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
