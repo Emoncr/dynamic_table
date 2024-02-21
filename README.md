@@ -4,6 +4,7 @@
 In this application, you can manage your table data column. Like, if you want to show or hide some columns, simply follow 2 steps.
 
 Step 1: Click on the hamburger icon on the top right. The control panel will be visible.
+
 Step 2: Click on the checkbox to select or unselect your items column.
 
 **It was a company assignment task that was given to me.**
