@@ -12,7 +12,7 @@ It was a company assignment task that was given to me.
 -> Honestly speaking I didn't face any hard challenges here.😶
 
 ### Technology I used
--> Requirments was I can use only react.js. So, I used here only  React.js and CSS
+-> Requirements were that I can use only React.js. So, I used only React.js and CSS.
 
 If you have any suggestions or recommendations let me know. You can find me on: 
 
