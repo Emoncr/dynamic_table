@@ -1,0 +1,58 @@
+
+/*==================================================
+        ROOT CSS ARE COMMING FROM APP.JS
+====================================================*/
+
+
+/*========== Table Component Css ==========*/
+
+.table_section {
+  background-color: var(--main-bg-color);
+  height: 100vh;
+  width: 100%;
+  padding: 60px 0;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.table_container {
+  box-shadow: var(--main-box-shadow);
+  border: 1px solid var(--main-border-color);
+  border-radius: var(--main-border-radius);
+  background-color: white;
+  padding: 30px 0;
+  margin: 0 20px;
+
+  min-height: 350px;
+}
+
+.menu_btn {
+  font-size: 22px;
+  background-color: transparent;
+  color: var(--font-color-heading);
+  padding: 5px;
+  border-radius: var(--main-border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.menu_btn:hover {
+  background-color: var(--main-bg-color);
+  color: var(--font-color-heading);
+}
+
+.controler_container {
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .table_container {
+    overflow-x: scroll;
+  }
+  .table_wrapper {
+    min-width: 1024px;
+  }
+}

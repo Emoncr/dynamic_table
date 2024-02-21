@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/*=======================================
+        ALL GLOBAL CSS HERE 
+=========================================*/
+:root {
+  --main-bg-color: #e5e7eb;
+  --main-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+  --main-border-color: #d1d5db;
+  --main-border-radius: 8px;
+
+  /* Fonts */
+  --font-family-inter: "Inter";
+  --font-color-heading: #111827;
+  --font-color-content: #1f2937;
+}
+
+/*=======================================
+        UTILITY CLASS CSS START 
+=========================================*/
+.head_text {
+  font-family: var(--font-family-inter);
+  color: var(--font-color-heading);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.thead_text {
+  font-family: var(--font-family-inter);
+  color: var(--font-color-heading);
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.content_text {
+  font-family: var(--font-family-inter);
+  color: var(--font-color-content);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/*============== Container Alignment Css ================ */
+.items_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.items_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.items_left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* ============== margin top ==================*/
+.mx-auto {
+  margin: 0 auto;
+}
+
+.mt-5 {
+  margin-top: 10px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-70 {
+  margin-top: 70px;
+}
+
+/* margin bottom */
+.mb-5 {
+  margin-bottom: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.mb-70 {
+  margin-bottom: 70px;
+}
+
+/* margin left */
+.ml-5 {
+  margin-left: 10px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.ml-25 {
+  margin-left: 25px;
+}
+.ml-30 {
+  margin-left: 30px;
+}
+.ml-50 {
+  margin-left: 50px;
+}
+.ml-70 {
+  margin-left: 70px;
+}
+
+/* margin right */
+.mr-5 {
+  margin-right: 10px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mr-25 {
+  margin-right: 25px;
+}
+.mr-30 {
+  margin-right: 30px;
+}
+.mr-50 {
+  margin-right: 50px;
+}
+.mr-70 {
+  margin-right: 70px;
+}
+
+/*============= padding top ===========*/
+.pt-5 {
+  padding-top: 10px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pt-25 {
+  padding-top: 25px;
+}
+.pt-30 {
+  padding-top: 30px;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+.pt-70 {
+  padding-top: 70px;
+}
+
+/* padding bottom */
+.pb-5 {
+  padding-bottom: 10px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pb-25 {
+  padding-bottom: 25px;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.pb-50 {
+  padding-bottom: 50px;
+}
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+/* padding left */
+.pl-5 {
+  padding-left: 10px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.pl-15 {
+  padding-left: 15px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.pl-25 {
+  padding-left: 25px;
+}
+.pl-30 {
+  padding-left: 30px;
+}
+.pl-50 {
+  padding-left: 50px;
+}
+.pl-70 {
+  padding-left: 70px;
+}
+
+/* padding right */
+.pr-5 {
+  padding-right: 10px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.pr-15 {
+  padding-right: 15px;
+}
+.pr-20 {
+  padding-right: 20px;
+}
+.pr-25 {
+  padding-right: 25px;
+}
+.pr-30 {
+  padding-right: 30px;
+}
+.pr-50 {
+  padding-right: 50px;
+}
+.pr-70 {
+  padding-right: 70px;
+}
+
+/*=======================================
+        UTILITY CLASS CSS END 
+=========================================*/

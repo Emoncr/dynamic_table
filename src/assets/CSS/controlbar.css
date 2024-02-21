@@ -1,0 +1,41 @@
+
+/*==================================================
+        ROOT CSS ARE COMMING FROM APP.JS
+====================================================*/
+
+
+.controlbar_cotainer {
+  background: #fff;
+  box-shadow: var(--main-box-shadow);
+  border-radius: var(--main-border-radius);
+  padding: 20px;
+  border: 1px solid var(--main-border-color);
+  position: absolute;
+  z-index: 999;
+  top: 40px;
+  right: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+.controler_checkbox label {
+  font-family: var(--font-family-inter);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--font-color-heading);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.controler_checkbox input {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  accent-color: green;
+}
